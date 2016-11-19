@@ -1,3 +1,8 @@
+---
+layout: post
+title: Links
+---
+
 [Skele: Character Animation Tools](https://www.assetstore.unity3d.com/en/#!/content/16899), Make skeleton animation & vertex anmiation, export & edit clips in Unity editor;
 
 [Skele: Immediate Console](https://www.assetstore.unity3d.com/en/#!/content/45600), input & execute C# code immediately in design-time & run-time;
