@@ -8,7 +8,7 @@ proxies:
     _index: 0
     udp: true
   - name: v4ec2
-    server: 13.200.11.254
+    server: 52.66.232.112
     type: ss
     port: 900
     password: 99813721
@@ -292,7 +292,6 @@ proxy-groups:
     interval: 300
   - name: U
     proxies:
-      - v6ec2
       - 🇫🇷 法国 09
       - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
       - 香港|@ripaojiedian
