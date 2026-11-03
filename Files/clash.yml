@@ -8,293 +8,160 @@ proxies:
     _index: 0
     udp: true
   - name: v4ec2
-    server: 13.204.70.221
+    server: 13.201.179.172
     type: ss
     port: 900
     password: 99813721
     cipher: aes-256-gcm
     _index: 0
     udp: true
-  - type: vless
-    name: 🇬🇧_GB_英国
-    server: 51.250.10.228
-    port: 443
-    uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
-    network: tcp
-    servername: sun6-21.userapi.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-      short-id: 65c7748be8
-    client-fingerprint: qq
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 🇷🇺_RU_俄罗斯
-    server: 178.154.205.131
-    port: 443
-    uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
-    network: tcp
-    servername: ads.x5.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-      short-id: 672ff0
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 🇺🇸_US_美国
-    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-    port: 443
-    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-    network: tcp
-    servername: i2pd.website
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-      short-id: 55e6af1a35e64a98
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: ss
-    name: 🇩🇪_DE_德国
-    server: 45.87.175.174
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - type: vless
-    name: 🇵🇱_PL_波兰
-    server: 185.136.132.171
-    port: 24170
-    uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    network: tcp
-    servername: speedtest.net
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-      short-id: 2fb2106a629b
-      spider-x: /
-    client-fingerprint: chrome
-  - type: vmess
-    name: 🇫🇷 法国 09
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: tcp
-    cipher: auto
-    servername: v35.hdacd.com
-  - type: vmess
-    name: 【机场推荐：https://a0a.xyz/】17
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    network: tcp
-    cipher: auto
-  - type: ss
-    name: 🇳🇱_NL_荷兰
-    server: 178.23.190.238
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
-  - type: ss
-    name: 🇺🇸_US_美国_1
-    server: 173.244.56.6
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - type: trojan
-    name: 🇨🇳_CN_中国
-    server: 219.79.214.159
-    port: 443
-    password: BxceQaOe
-    network: tcp
-    sni: t.me/ripaojiedian
-    skip-cert-verify: true
-  - type: vless
-    name: 🇨🇳_CN_中国_1
-    server: 62.60.148.21
-    port: 443
-    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
-    network: tcp
-    servername: st.ozone.ru
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
-      short-id: ee6f3e8f44b1f0b6
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 🇨🇦_CA_加拿大
-    server: 167.17.70.16
-    port: 8443
-    uuid: 55975415-43c0-461c-8752-d5b8013364e3
-    network: tcp
-    servername: www.microsoft.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 8W9r2aXGhKNtvPxnL6EiPpQuSm9OJT17x2xyxwxIo30
-      short-id: 84f70f1177981563
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-  - type: vless
-    name: 🇺🇸_US_美国_2
-    server: 208.69.78.5
-    port: 443
-    uuid: 0a21d713-6e6f-4274-8b84-464019325513
-    network: grpc
-    servername: www.microsoft.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: vMBfs89AZ02R1ggA45SqOFLfe6rJQ0_mLBpsV97k3zA
-      short-id: 9c8d68d581a08ea5
-    grpc-opts:
-      grpc-service-name: ecb7f0f50489f81cd1983a56
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇧🇬_BG_保加利亚
-    server: 178.239.124.30
-    port: 56482
-    uuid: 2c487d9d-25a1-4b79-aed1-086b8c3082ca
-    network: tcp
-    servername: cloudcircus.jp
-    tls: true
-    reality-opts:
-      public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
-    client-fingerprint: firefox
-    flow: xtls-rprx-vision
-  - type: ss
-    name: 🇷🇺_RU_俄罗斯_1
-    server: 194.246.114.101
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
-  - type: vless
-    name: 🇬🇧_GB_英国_1
-    server: 157.173.127.224
-    port: 443
-    uuid: bec44ac3-a662-4179-a9dd-2aa881706dde
-    network: tcp
-    servername: analytics.google.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ
-      short-id: aba7bc9a
-    client-fingerprint: chrome
-  - type: vmess
-    name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: tcp
-    cipher: auto
-    servername: v36.hdacd.com
-  - type: ss
-    name: 🇮🇷_IR_伊朗
-    server: 217.60.249.112
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 0eC4ZBvStOgQEzTpCYjWN5
-  - type: ss
-    name: 🇲🇩_MD_摩尔多瓦
-    server: 185.153.197.5
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - type: vless
-    name: 🇺🇸_US_美国_3
-    server: 104.26.1.221
-    port: 443
-    uuid: 3f9c8463-8610-3ed8-86c8-a26713067825
-    network: ws
-    servername: dabaius2.sylu.net
-    tls: true
-    encryption: none
-    ws-opts:
-      path: /db10240eb751d6ab
-      headers:
-        Host: dabaius2.sylu.net
-    client-fingerprint: chrome
-  - type: ss
-    name: 🇺🇸_US_美国_4
-    server: 185.47.255.22
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-  - type: vmess
-    name: 🇺🇸 US_188
-    server: 216.238.87.47
-    port: 27502
-    uuid: b8155ce4-7e08-4c40-800f-8671312b7124
-    alterId: 0
-    network: none
-    cipher: auto
-  - type: vmess
-    name: 香港|@ripaojiedian
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    network: tcp
-    cipher: auto
-  - type: ss
-    name: 🇨🇳_CN_中国_2
-    server: 103.149.183.80
-    port: 8388
+  - name: 🇮🇹_IT_意大利
+    type: ss
+    server: 202.50.253.72
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇹_IT_意大利 (2)
+    type: ss
+    server: 202.50.253.81
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇹_IT_意大利 (3)
+    type: ss
+    server: 202.50.253.99
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇹_IT_意大利 (4)
+    type: ss
+    server: 202.50.253.45
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇹_IT_意大利 (5)
+    type: ss
+    server: 202.50.253.54
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇹_IT_意大利 (6)
+    type: ss
+    server: 202.50.253.18
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇹_IT_意大利 (7)
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇹_IT_意大利 (8)
+    type: ss
+    server: 202.50.253.90
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇮🇹_IT_意大利 (9)
+    type: ss
+    server: 202.50.253.36
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇳🇱_NL_荷兰
+    type: ssr
+    server: 109.104.153.43
+    port: 33336
+    password: dongtaiwang.com
     cipher: chacha20-ietf
-    password: asd123456
-  - type: vless
-    name: defaultName
-    server: www.gov.ua
-    port: 8080
-    uuid: 046da250-d5ef-4867-9095-302477d54d20
+    obfs: tls1.2_ticket_auth
+    protocol: auth_chain_a
+  - name: 🇮🇹_IT_意大利 (10)
+    type: ss
+    server: 202.50.253.27
+    port: 19999
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸US_33
+    type: vmess
+    server: www.ubuntuupdates.com
+    port: 443
+    uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+    cipher: auto
+    alterId: 0
+    tls: true
+    servername: www.ubuntuupdates.com
+    sni: www.ubuntuupdates.com
     network: ws
-    servername: feng.ipy29c99.workers.dev
     ws-opts:
-      path: /
+      path: /truth
       headers:
-        Host: feng.ipy29c99.workers.dev
-    client-fingerprint: chrome
-  - type: vless
-    name: defaultName_1
-    server: ip.sb
-    port: 8080
-    uuid: 046da250-d5ef-4867-9095-302477d54d20
-    network: ws
-    servername: feng.ipy29c99.workers.dev
-    ws-opts:
-      path: /
-      headers:
-        Host: feng.ipy29c99.workers.dev
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇷🇺_RU_俄罗斯_2
-    server: 31.44.0.63
-    port: 58349
-    uuid: 48a8cab5-ce75-4c8a-90f5-dcd020c89b4b
-    network: tcp
-    encryption: none
+        Host: www.ubuntuupdates.com
+  - name: 🇩🇪_DE_德国->🇬🇧_GB_英国
+    type: ss
+    server: 177.202.111.19
+    port: 56137
+    password: uvKNudV-N8AUCrykPiyznA
+    cipher: chacha20-ietf-poly1305
+    tls: false
+    skip-cert-verify: false
+  - name: 🇷🇺_RU_俄罗斯
+    type: ss
+    server: 91.206.92.238
+    port: 18443
+    password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+    cipher: aes-256-gcm
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸_US_美国
+    type: ss
+    server: us.betterandbetter.cloud
+    port: 8443
+    password: BetterProxy2026!
+    cipher: chacha20-ietf-poly1305
+    tls: false
+    skip-cert-verify: false
+  - name: 🇹🇷_TR_土耳其->🇧🇬_BG_保加利亚
+    type: ss
+    server: location8.cpanel-host10.ir
+    port: 56134
+    password: uvKNudV-N8AUCrykPiyznA
+    cipher: chacha20-ietf-poly1305
+    tls: false
+    skip-cert-verify: false
 proxy-groups:
   - name: Balance
     type: load-balance
     proxies:
       - v4ec2
+      - v6ec2
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: U
     proxies:
-      - v6ec2
-      - 🇫🇷 法国 09
-      - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
-      - 香港|@ripaojiedian
+      - 🇮🇹_IT_意大利 (4)
+      - 🇮🇹_IT_意大利
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 600
@@ -302,7 +169,6 @@ proxy-groups:
   - name: AWS
     proxies:
       - Balance
-      - 【机场推荐：https://a0a.xyz/】17
       - v6ec2
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -318,7 +184,10 @@ proxy-groups:
       - Balance
     type: select
 rules:
-  - DOMAIN-SUFFIX,api.roblox.com,Balance
+  - PROCESS-NAME,RobloxPlayerLauncher.exe,Balance
+  - DOMAIN-SUFFIX,rbxcdn.com,Balance
+  - PROCESS-NAME,RobloxPlayerInstaller.exe,Balance
+  - PROCESS-NAME,RobloxPlayerBeta.exe,Balance
   - DOMAIN-SUFFIX,gov.cn,DIRECT
   - DOMAIN-SUFFIX,hdslb.com,Balance
   - DOMAIN-SUFFIX,liblib.art,DIRECT
