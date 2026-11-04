@@ -8,7 +8,7 @@ proxies:
     _index: 0
     udp: true
   - name: v4ec2
-    server: 13.201.179.172
+    server: 16.4.51.215
     type: ss
     port: 900
     password: 99813721
